@@ -1,34 +1,64 @@
 .header {
-
+text-align: center;
 }
 
 .facts {
-
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 tr {
+}
+/*genius-move-moves color on even rows in table*/
 
+tr:nth-child(even) {
+  background-color: lightgray;
 }
 
 th {
-
+text-align: left;
+padding: 10px;
 }
 
-td,
-th {
-
+td {
 }
 
 h3 {
   margin-bottom: 0;
 }
-
+.container {
+  width: 100%;
+}
 /* Using CSS grid */
 .links {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  padding: 0;
+  width: 100%;
 }
 
 .links > li {
+  list-style-type: none;
+  width: 100%;
 }
+
+a {
+  text-decoration: none;
+  color:white;
+  background-color: blue;
+  padding: 15px 50px;
+  text-align: center;
+}
+
+.links a {
+  padding: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  }
 
 /* 
     Using Flexbox
@@ -45,6 +75,4 @@ h3 {
 }
 */
 
-.links a {
 
-}

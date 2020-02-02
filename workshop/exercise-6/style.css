@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+div{
+    text-align: center;
+    font-family: "Poppins";
+    align-content: center;
+    margin: 0 auto;
+    line-height: 10px;
+}
+
+header{
+    border: 1px solid #333;
+    font-size: large;
+    padding-left: 20px;
+    width: 30%;
+    border-radius: 25px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.sell {
+    text-align: center;
+    display: inline-block;
+    line-height: 33px;
+    max-width: 375px;
+    margin: auto 0;
+
+}
+.idk{
+    text-decoration: none;
+}
+.idk:hover{
+    color: gray;
+}
+
+.idk::after{
+content: ">";
+display: inline-block;
+}

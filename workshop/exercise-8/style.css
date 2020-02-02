@@ -9,8 +9,55 @@ body {
   justify-content: center;
 }
 
-.fast {
+/* first loop, continuation*/
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fast{
+  left: 1;
+  animation: slideIn 1s ease-in-out;
 }
 
 .cool {
+  background-color: dodgerblue;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 10px 25px 5px #a5a5a5;
+  text-transform: uppercase;
 }
+.cool:hover {
+  cursor: pointer;
+  animation: bounce 1s ease-in-out;
+}
+/* very confusing */
+
+@keyframes bounce {
+  from {
+    rotate: (0deg);
+    transform: scale(1) 
+  }
+  70% {
+    rotate: (120deg);
+    transform: scale(1.1);
+  }
+  80% {
+    rotate: (150deg)
+    transform: scale(2)
+  }
+  to {
+    transform: scale(0);
+    rotate: (360deg);
+  }
+}
+

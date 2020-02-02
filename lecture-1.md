@@ -2,18 +2,6 @@
 
 ---
 
-## [CSS Combinators(]https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
-
-Sometimes, we want need to use a more convoluted targeting method. 😜
-
-- Adjacent sibling combinator `div + p`
-- General sibling combinator `div ~ p`
-- Child combinator `div > p`
-- Descendant combinator `div p`
-
----
-
-
 ## CSS Pixels
 
 - Your monitor is divided into pixels (screen pixels).
@@ -120,6 +108,7 @@ Media queries can be used to check many things, such as:
 # Advanced topics
 
 ---
+Sometimes, we want need to use a more convoluted targeting method. 😜
 
 ## CSS Pseudo selectors
 
@@ -150,6 +139,7 @@ Media queries can be used to check many things, such as:
 - Scale
 
 [Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
+
 
 ---
 

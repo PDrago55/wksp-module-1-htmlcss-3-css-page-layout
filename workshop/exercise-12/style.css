@@ -4,46 +4,105 @@ body {
 }
 
 .header {
-
+text-align: center;
+background-color: lightskyblue;
+margin: 0;
+color: #ffff;
 }
 
 .registration-form {
+border: 1px solid lightgrey;
+background-color: #fff;
+padding: 20px;
+margin: 0 auto;
+border-radius: 4px;
+margin-bottom: 20px;
+}
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 1px lightgrey solid;
 }
 
 .text-field {
-
+padding: 10px;
+border: 1px solid blue;
+margin: 10px;
+min-width: 300px;
+box-sizing: border-box;
 }
 
 .radio-label,
 .checkbox-label {
-
+    text-align: left;
+    margin: 10px;
+    margin-left: 0;
 }
 
 label {
-
+display: block;
+font-size: 1rem;
+text-align: center;
 }
 
 .section {
-
+    text-align: left;
+    display: block;
+    padding-left: 10px;
 }
 
 .section > label {
-
+text-align: left;
 }
 
 select {
-
+margin-left: 10px;
 }
 
 textarea {
-
+display: block;
+width: 100%;
+text-align: center;
+min-height: 100px;
+margin-top: 10px;
+border: 0;
 }
-
+textarea:hover {
+    background-color: #0096fb;
+}
 .form-button {
-
+background-color: white;
+align-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+margin: 20px auto;
+width: 100px;
+text-align: center;
+padding: 20px 0 20px 40px;
+font-size: 17px;
+border: 1px solid #0096fb;
+cursor: pointer;
+transition: background-color 0.2s ease-in-out;
 }
-
+/*unable to use class on textbox
+.lol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+}
+*/
 .form-button:hover {
-    
+    background-color: #0096fb;
+    color: #ffff;
 }

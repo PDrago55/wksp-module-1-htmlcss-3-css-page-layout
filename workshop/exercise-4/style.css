@@ -1,0 +1,36 @@
+.nav {
+background-color: #3a3633;
+vertical-align: baseline;
+text-align: center;
+width: 0px 40px;
+padding: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.nav > a {
+    margin: 0px 40px;
+
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 28%;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+.logo:hover {
+    color: lightgray;
+}
